@@ -4,7 +4,7 @@
 # TODO(jamiesnape): Use a different tag. Per the Binder documentation, a tag
 # named "latest" is not allowed, however they do not (yet) enforce that
 # restriction.
-FROM robotlocomotion/drake:latest
+FROM robotlocomotion/drake:bionic-20220402
 ARG NB_USER=jovyan
 ARG NB_UID=1000
 ARG NB_GID=100
